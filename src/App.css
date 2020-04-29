@@ -9,6 +9,7 @@ body {
 }
 
 .icon {
+  margin-top: 12px;
   width: 50px;
   height: 50px;
   color: white;
@@ -27,7 +28,7 @@ body {
   padding: 5%;
   margin: 5%;
   border: solid white;
-  background-color: white;
+  background-color: #cacaca;
   border-radius: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -43,16 +44,21 @@ p {
 .home-flex {
   display: flex;
   flex-direction: column;
+   align-items: center;
+ 
 }
 .Home {
-  width: 50vw;
+  width: 50%;
   border-radius: 20px;
-
-  padding: 5%;
-  margin: 5%;
   border: solid white;
-  background-color: #cacaca;;
+  background-color: #cacaca;
+  margin: 2%;
 }
+.project {
+
+  width: 100%;
+}
+
 .About {
   border-radius: 20px;
   padding: 5%;
@@ -62,16 +68,19 @@ p {
   flex-direction: row;
 }
 .about-icon {
-  width: 100px;
-  height: 80px;
+  width: 40%;
+  height: 30%;
   border: solid white 2px;
   background-color: white;
   border-radius: 15px;
-  margin: 30px;  flex-direction: row;
+  margin: 30px;  
+  flex-direction: row;
 }
 .about-row {
   display: flex;
-  justify-content: space-between;  flex-direction: row;
+  justify-content: space-between; 
+   flex-direction: row;
+   
 }
 .menu {
   
@@ -112,21 +121,13 @@ align-self: center;
   justify-content: center;
   flex-direction: column;
 }
-.project {
-  width: 300px;
-}
+
 @media only screen and ( max-width: 760px) {
-  .home-flex {
-    display: flex;
-    flex-direction: column;
-  }
-  .Home {
-    width: 50vw;
-    border-radius: 20px;
-    flex-direction: column;
-    padding: 5%;
-    margin: 5%;
-    border: solid white;
-    background-color: #cacaca;
-  }
+.about-row {
+  display: flex;
+  justify-content: space-between;  
+  flex-direction: column;
+
+}
+
 }

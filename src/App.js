@@ -19,7 +19,7 @@ class App extends Component {
        < Header />
        <BrowserRouter>
        
-        <div className="content">
+        <div>
           <Navigation />
             <Switch>
              <Route path="/" component={Home} exact/>

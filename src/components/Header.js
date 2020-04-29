@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navigation';
 
 import selfie from "../img/selfie.png"
 

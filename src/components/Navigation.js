@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import menuicon from "../img/bars.svg"; 
 
 
-
 const Navigation = () => {
     return (
        <div className="Navigation">
@@ -12,7 +11,6 @@ const Navigation = () => {
           <NavLink to="/">Start</NavLink>
           <NavLink to="/about">Om</NavLink>
           <NavLink to="/contact">Kontakt</NavLink>
-
        </div>
     );
 }
